@@ -1,0 +1,59 @@
+@use 'mixins';
+@use 'variables';
+
+
+header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+}
+
+h1 {
+    @include mixins.formatH1;
+}
+
+.backImgHeader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    .tpl-back1{
+        position: relative;
+        top: 20%;
+        left: 60%;
+        width: 300px;
+    }
+
+    .cafe-back1{
+        position: relative;
+        top: 20vh;
+        left: 0;
+        width: 250px;
+    }
+
+    
+    .disto-back1{
+        position: relative;
+        top: 45vh;
+        left: 20vw;
+        width: 200px;
+    }
+
+    }
+
+    footer{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3rem;
+    }
+
+
+

@@ -1,0 +1,103 @@
+@use 'mixins';
+@use 'variables';
+
+
+//THIS PARANOMRAL LIFE
+
+.sectionTPL{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 42vw;
+    grid-template-rows: 10rem 1fr 12rem; 
+    padding: 4rem 8rem 8rem 8rem;
+    margin: 50vh 0;
+    z-index: 5;
+    
+
+    .head-section{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1 / 2;
+
+        .tpl{
+            font-family: variables.$fontTPL;
+            color: variables.$jaune-tpl;
+        }
+
+        q{
+            color: white;
+            font-size: 1.5rem;
+            font-family: variables.$fontTPL;
+        }
+    }
+
+    .textblock{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding-left: 1rem;
+        z-index: 2;
+        p{
+            color: white;
+        }
+    }
+
+    .bulletpoints{
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+        margin: 2rem 1rem;
+        z-index: 3;
+
+        h4{
+            font-size: 2rem;
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 2rem 4rem;
+
+            li{
+                font-size: 1rem;
+                font-weight: bold;
+                
+                list-style: none;
+                text-align: center;
+                
+
+                div{
+                    background-color: white;
+                    border-radius: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 1rem;
+                    height: 8rem;
+                    width: 8rem;
+                }
+            }
+        }
+    }
+    
+    img{
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+        justify-self: right;
+        align-self: end;
+        margin-left: 2rem;
+        z-index: 1;
+        filter: brightness(-1);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

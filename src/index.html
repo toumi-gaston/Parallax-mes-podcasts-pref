@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./scripts/hover3D.js"></script>
+    <title>Atelier 05 - SASS part 1</title>
+</head>
+<body data-scroll-container>
+    <div data-scroll-section class="backImgHeader" data-scroll-repeat="true">
+        <img data-scroll data-scroll-speed="0" data-scroll-repeat="true" class="backImg tpl-back1" src="./img/tpl-back.png" alt="Les animateurs de This Paranormal Life">
+        <img data-scroll data-scroll-speed="0" data-scroll-repeat="true" src="./img/cafe-back1.png" alt="Les animatrices de Un peu de crime dans ton café" class="backImg cafe-back1">
+        <img data-scroll data-scroll-speed="0" data-scroll-repeat="true" src="./img/disto-back1.png" alt="Les animateurs de Distorsion" class="backImg disto-back1">
+        
+        
+        
+    </div>
+    <header data-scroll-section data-scroll-repeat="true">
+        <h1 data-scroll data-scroll-speed="2" data-scroll-repeat="true">atelier 5 & 6 - SASS - Noémie Gagnon</h1>
+        <h2 data-scroll data-scroll-speed="2" data-scroll-repeat="true">Mes podcasts préférés</h2>
+    </header>
+    <main data-scroll-container>
+        <div class="container-backImg" data-scroll-section data-scroll-repeat="true">
+            <img class="backImg tpl-back2" src="./img/tpl-back2.png" alt="Les animateurs de This Paranormal Life">
+            <img class="backImg tpl-back3" src="./img/tpl-back3.png" alt="Les animateurs de This Paranormal Life">
+            <img class="backImg tpl-back4" src="./img/tpl-back4.png" alt="Les animateurs de This Paranormal Life">
+        </div>
+        <article data-scroll-section data-scroll-repeat="true">
+            <section class="sectionTPL"  data-scroll data-scroll data-scroll-speed="2">
+                <div class="head-section">
+                    <h3 class="tpl">This paranormal life</h3>
+                    <q>Live fast, investigate and DIE YOUG, BABYYYY!</q>
+                </div>
+                <div class="textblock">
+                    <p><em>This paranormal life</em> est un podcast britannique animé par des amis d'enfance de l'Irlande du Nord, Rory Powers et Kit Grier Mulvena. À chaque épisode, Kit et Rory explorent un cas possiblement paranormal; l'un présente le cas en se faisant le plus convaincant possible, alors que l'autre se fait le juge sceptique. Dans un ton plein d'humour, ils essaient de déterminer à la fin de chaque épisode si oui ou non il s'agit bien d'un phénomène paranormal.</p>
+                    <p>Les types de sujets sont assez variés. Les plus récurrents sont les extraterrestres, les cryptides, les fantômes et les complots. Plusieurs de leurs sujets leur sont proposés par des auditeurs et auditrices. En effet, la communauté autours du podcast est très enthousiaste. Grâce à leur Patreon, Kit et Rory sont capables de s'investir dans This paranormal life à temps plein. Les abonné.es patreon ont droit à des épisodes bonus à chaque mois ainsi qu'un after-show hebdomadaire. Le podcast a remporté de nombreux prix.</p>
+                </div>
+                <div class="bulletpoints"">
+                    <h4>Les points forts</h4>
+                    <ul>
+                        <li><div>L'humour décalé et irrévérencieux</div></li>
+                        <li><div>L'originalité des sujets</div></li>
+                        <li><div>Le côté quand même woke et terre-à-terre</div></li>
+                    </ul>
+                </div>
+                <img src="./img/thisparanormallife.png" alt="Rory et Kit en mode top secret">
+            </section>
+            <div class="toSectionCafe">
+                <img src="./img/cafe-back2.png" alt="Les animatrices de Un peu de crime dans ton café" class="backImg cafe-back2">
+                <img src="./img/cafe-back3.png" alt="Les animatrices de Un peu de crime dans ton café" class="backImg cafe-back3">
+                <img src="./img/cafe-back4.png" alt="Les animatrices de Un peu de crime dans ton café" class="backImg cafe-back4">
+            </div>
+            <section class="sectionCafe" data-scroll data-scroll data-scroll-speed="2" data-scroll-repeat="true">
+                <div class="head-section">
+                    <h3 class="cafe">Un peu de crime dans ton café</h3>
+                    <q>Big if true!</q>
+                </div>
+                <div class="textblock">
+                    <p><em>Un peu de crime dans ton café</em> est un podcast québécois animé par Audrey et Catherine, deux jeunes femmes dans ma tranche d'âge passionnées par les cas judiciaires hors du commun, l'histoire du Québec et le café. Il s'agit d'un podcast de true crime qui s'intéresse à des cas québécois. Les animatrices présentent leurs cas avec humour, intelligence et empathie.</p>
+                    <p>Au début de chaque épisode, Catherine et Audrey présentent un café, généralement d'une brûlerie québécoise. À la fin de chaque épisode, elles présentaient jusqu'à récemment les <em>Deux minutes de Babine</em>, une chronique pendant laquelle elles narrent une intrigue de District 31 (généralement avec un minimum de contexte). Suite à l'annulation de la série, elles ont commencé à présenté des intrigues de Stat mettant en vedette le ptit fendant à Pomerleau.</p>
+                </div>
+                <div class="bulletpoints">
+                    <h4>Les points forts</h4>
+                    <ul>
+                        <li><div>La qualité de la recherche et de la rédaction</div></li>
+                        <li><div>Le sens de l'humour plein de références extrêmement québ'</div></li>
+                        <li><div>Les valeurs féministes, anticapitalistes, antiracistes et anticolonialistes</div></li>
+                    </ul>
+                </div>
+                <img src="./img/unpeudecrime.jpg" alt="Audrey et Catherine très enthousiastes">
+            </section>
+            <div class="toSectionDisto">
+                <img src="./img/disto-back2.png" alt="Les animateurs de Distorsion" class="backImg disto-back2">
+                <img src="./img/disto-back3.png" alt="Les animateurs de Distorsion" class="backImg disto-back3">
+                <img src="./img/disto-back4.png" alt="Les animateurs de Distorsion" class="backImg disto-back4">
+            </div>
+            <section class="sectionDisto" data-scroll data-scroll data-scroll-speed="2" data-scroll-repeat="true">
+                <div class="head-section">
+                    <h3 class="distorsion">Distorsion</h3>
+                    <q>Oui monsieur!</q>
+                </div>
+                <div class="textblock">
+                    <p><em>Distorsion, des histoires étranges de l'ère numérique</em> est un podcast québécois animé par Émile Gauthier et Sébastien Lévesque qui présente des histoires de type true crime mais qui sont reliées de près ou de loin au numérique. Les sujets présentés touchent donc par exemple aux cas de piratage informatique, à des légendes urbaines comme les creepy pasta et des enquêtes où des preuves numériques ont permis de coincer le coupable.</p>
+                    <p>Distorsion se démarque particulièrement par l'originalité des sujets et par la grande qualité de la recherche derrière chaque cas. Le travail minutieux d'Émile et Sébastien leurs à permis de devenir un podcast de true crime particulièrement connu au Québec, mais aussi en France, en Belgique et en Suisse. Ils ont aussi produit une série télé et ont publié deux livres qui sont aussi disponible en version audio sur Audible. La communauté de fan est très active sur les réseaux sociaux et la personnalité symptahique des deux animateurs est très rassembleuse.</p>
+                </div>
+                <div class="bulletpoints">
+                    <h4 >Les points forts</h4>
+                    <ul>
+                        <li><div>La qualité des recherches très complètes</div></li>
+                        <li><div>La qualité de la narration</div></li>
+                        <li><div>L'enthousiasme des gars</div></li>
+                    </ul>
+                </div>
+                <img src="./img/distorsion.jpg" alt="Émile et Sébastien qui nous regardent avec intensité">
+            </section>
+        </article>
+    </main>
+
+    <footer data-scroll-section>
+        <p>AGT - Atelier 5 et 6 ish</p>
+        <p>Noémie Gagnon</p>
+        <p>26 janvier 2023</p>
+    </footer>
+
+    <script type="module" src="./scripts/main.js"></script>
+    
+</body>
+</html>

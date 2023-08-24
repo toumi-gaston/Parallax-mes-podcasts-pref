@@ -1,0 +1,94 @@
+.container-backImg{
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.toSectionCafe{
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.toSectionDisto{
+    position: fixed;
+    top: 250vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.backImg{
+    z-index: 0;
+    width: 200px;
+    filter: brightness(0.5);
+}
+
+
+.tpl-back2{
+    position: relative;
+   top: 50vh;
+   left: 70vw;
+}
+
+.tpl-back3{
+    position: relative;
+    top: -20vh;
+    left: 0vw;
+    }
+
+.tpl-back4{
+    position: relative;
+    top: 10vh;
+    left: 20vw;
+    width: 300px;
+}
+
+
+.cafe-back2{
+    position: relative;
+    top: -10vh;
+    left: 300px;
+    z-index: 0;
+}
+
+.cafe-back3{
+    position: absolute;
+    top: 20vh;
+    left: 70vw;
+}
+
+.cafe-back4{
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+}
+
+
+.disto-back2{
+    position: absolute;
+    top: -5vh;
+    left: 50vw;
+    width: 230px;
+}
+
+.disto-back3{
+    position: absolute;
+    top: 20vh;
+    left: 70vw;
+    width: 230px;
+}
+
+.disto-back4{
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    width: 230px;
+}

@@ -1,0 +1,42 @@
+@use 'mixins';
+@use 'variables';
+@use 'section-tpl';
+@use 'section-cafe';
+@use 'section-disto';
+@use 'header-footer';
+@use 'back-img';
+@import '../../node_modules/locomotive-scroll/src/styles/base';
+
+*{
+    font-family: variables.$fontDefault;
+    font-size: 16px;
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+h2{
+    @include mixins.formatH2;
+    z-index: 1;
+}
+
+h3{
+    @include mixins.formatH3;
+}
+
+img{
+    width: 40vw;
+}
+
+p{
+    color: white;
+    padding-top: 1rem;
+}
+
+
+
+
+
+

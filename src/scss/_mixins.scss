@@ -1,0 +1,33 @@
+@use 'variables';
+
+//Les titres
+
+@mixin formatH1{
+    color: white;
+    font-family: variables.$fontDefault;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+    text-align: center;
+    z-index: 5;
+}
+
+@mixin formatH2{
+    color: white;
+    font-family: variables.$fontDefault;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin formatH3{
+    color: white;
+    font-size: 3rem;
+    margin: 1rem 1rem;
+}
+
+@mixin formatP{
+    color: white;
+}
